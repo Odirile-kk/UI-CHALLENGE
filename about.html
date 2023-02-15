@@ -1,50 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <head>
-    <title>About Us</title>
+    <title>Odirile Kekana</title>
+
+<link rel="stylesheet" href="style.css">
+<link rel="icon" href="assets/Gold Luxury Initial Circle Logo.png">
 </head>
+
     <body>
-        <head>
-            <div>
-                <table style="width: 100%;">
-              <tr>
-                <td>
-                    <!---wrap in link so you can navigate back to homepage--->
-                    <a href="index.html">
-                    <img src="assets/Logo.png" width="250">
-                    </a>
-                 </td>
-                  <td align="right">
-                      <nav
-                           style="
-                                  margin-right: 50px;
-                                  margin-top: 16px;
-                                  margin-bottom: 16px;
-                                  margin-left: 50px;
-                                  "
-                       >
-                      <a href="index.html">Home</a>
-                      <a href="about.html" style="margin: 16px">About Us</a>
-                      <a href="contact.html">Contact Us</a>
-                      </nav>
-                  </td>
-                </tr>
-            </table>
-            </div>
-        </head>
+        <header>
+            <nav>
+                <a href="index.html" class="nav-logo">
+                    <img src="assets/Gold Luxury Initial Circle Logo.png" >
+                </a>
+                <ul class="nav-menu">
+                    <!--Give lists class names to avoid confusion with multiple lists-->
+                    <li class="menu-item">
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="about.html">About Me</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="contact.html">Contact Me</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
         
-        <table style="width: 100%; height: 300px">
+        
+        <table class="about-table">
                 <tr>
                     <td colspan="2">
                     </td>
                 </tr>
                     <td style="padding-left: 20vh; padding-top: 50px">
-                        <h1>Being a part of the solution</h1>
+                        <h1>Get to know me more</h1>
                         <p>
-                            These days, technology has a significant impact on practically every aspect of life,<br> changing how we live. As a result, people with solid technological backgrounds are still in demand.<br> This is the situation with software developers, who are responsible for the entire process of<br> developing computer programs and the applications that let users carry out particular tasks on a<br> computer or other technological equipment. 
+                            I have a Higher Certificate in Information Systems Engineering,<br>safe to say that's where my coding journey began.
+                             Shortly after that I landed an internship at Glucode for <br> iOS App development where I learned SwiftUI, during my tenure there
+                             I acquired a <br> Certificate of Completeion for iOS App development. The languages I learned in school 
+                             <br> are Java, SQL and HTML. I'm self-taught in c# and Python. 
                         </p>
                     </td>
-                    <td align="right" style="padding-right: 20vh; padding-top: 50px; padding-bottom: 50px">
+                    <td class="td-about" align="right">
                         <img src="assets/martin-shreder-5Xwaj9gaR0g-unsplash.jpg"
                              alt=""
                              width="550px"
@@ -54,5 +57,31 @@
                         
                     </td>
             </table>
+            <section class="skills">
+                <h1>Projects</h1>
+                <p>These are Swift projects that I have done.</p>
+                
+                <div class="row">
+                    <div class="skills-col">
+                        <h3>Breaking Bad</h3>
+                    <p>This app consists of basic Swift. It just show a list of the breaking bad <br> characters and when you click on them you get more information on them. <br>
+                        This information is from the breaking bad API. </p>
+                    </div>
+                    <div class="skills-col">
+                        <h3>The Bar Barry</h3>
+                    <p>The Bar Barry app was made using the bartender api. This app consists <br>
+                    of more functionality. You are able to search for the drink you like<br>
+                as well as save or favorite it for later. It also <br> consists of an onboarding process for the user.</p></div>
+                    <div class="skills-col">
+                        <h3>Noted Tasks</h3>
+                    <p>This app is a replication of the reminders app on the iPhone</p></div>
+                    
+                    
+                    
+                </div>
+                
+                
+            </section>
+           
     </body>
 </html>

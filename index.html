@@ -1,43 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <head>
-    <title>Eloquent Boutique</title>
+    <title>Odirile Kekana</title>
+
+<link rel="stylesheet" href="style.css">
+<link rel="icon" href="assets/Gold Luxury Initial Circle Logo.png">
 </head>
-    
+
     <body>
-        <head>
-            <div>
-                <table style="width: 100%; height 300px">
-              <tr>
-                <td>
-                    <!---wrap in link so you can navigate back to homepage--->
-                    <a href="#">
-                    <img src="assets/Logo.png" width="150">
-                    </a>
-                 </td>
-                  <td align="right">
-                      <nav
-                           style="
-                                  margin-right: 50px;
-                                  margin-top: 16px;
-                                  margin-bottom: 16px;
-                                  margin-left: 50px;
-                                  "
-                       >
-                      <a href="#">Home</a>
-                      <a href="about.html" style="margin: 16px">About Us</a>
-                      <a href="contact.html">Contact Us</a>
-                      </nav>
-                  </td>
-                </tr>
-            </table>
-            </div>
-        </head>
+        <header>
+            <nav>
+                <a href="index.html" class="nav-logo">
+                    <img src="assets/Gold Luxury Initial Circle Logo.png" >
+                </a>
+                <ul class="nav-menu">
+                    <!--Give lists class names to avoid confusion with multiple lists-->
+                    <li class="menu-item">
+                        <a href="#">Home</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="about.html">About Me</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="contact.html">Contact Me</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
         
         
         <!----This is the main that will encompass all our content for the landing page---->
         <main>
-            <table style="width: 100%; height: 300px">
+            <table class="main-table">
                 <tr>
                     <td colspan="2">
                         <video 
@@ -46,19 +44,19 @@
                                height="600px"
                                alt=""
                                style="obejct-fit: cover"
-                               loop autoplay
+                               autoplay
                                controls >
                         </video> 
                     </td>
                 </tr>
-                    <td style="padding-left: 20vh; padding-top: 50px">
-                        <h1>Quick Bio</h1>
-                        <em>Odirile Kekana</em>
+                    <td class="td-bio">
+                        <h1>Odirile Kekana</h1>
+                        <em>Quick Bio</em>
                         <p>
                             I fell inlove prommaing simply because I want to be a part of the solution. <br>Software development wasn't my initial career path, but I'm glad I discovered it.<br>  I'm excited to explore a career as a developer<br> and learn more about this line of work from industry professionals.
                         </p>
                     </td>
-                    <td align="right" style="padding-right: 20vh; padding-top: 50px; padding-bottom: 50px">
+                    <td class="td-img" align="right" >
                         <img src="assets/bio.jpg"
                              alt=""
                              width="300px"
@@ -74,7 +72,7 @@
         
         <!---This is the footer--->
         <footer>
-            <table style="width: 100%; height: 100px; background-color: burlywood;">
+            <table style="width: 100%; height: 100px; background-color: #e9d2c3;">
             <tr>
                 <td style="padding-left: 20vh;">
                     <h1>Address</h1>
