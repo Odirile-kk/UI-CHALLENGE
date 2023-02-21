@@ -39,12 +39,8 @@
                     </td>
                 </tr>
                     <td style="padding-left: 20vh; padding-top: 50px">
-                        <h1>Get to know me more</h1>
-                        <p>
-                            I have a Higher Certificate in Information Systems Engineering,<br>safe to say that's where my coding journey began.
-                             Shortly after that I landed an internship at Glucode for <br> iOS App development where I learned SwiftUI, during my tenure there
-                             I acquired a <br> Certificate of Completeion for iOS App development. The languages I learned in school 
-                             <br> are Java, SQL and HTML. I'm self-taught in c# and Python. 
+                        <h1 id="gtkm" style="color: black;"></h1>
+                        <p id="more_info" style="color: black;">
                         </p>
                     </td>
                     <td class="td-about" align="right">
@@ -58,30 +54,47 @@
                     </td>
             </table>
             <section class="skills">
-                <h1>Projects</h1>
-                <p>These are Swift projects that I have done.</p>
+                <h1 id="my_projects" style="color: black;"></h1>
+                <p id="em"></p>
                 
                 <div class="row">
                     <div class="skills-col">
-                        <h3>Breaking Bad</h3>
-                    <p>This app consists of basic Swift. It just show a list of the breaking bad <br> characters and when you click on them you get more information on them. <br>
-                        This information is from the breaking bad API. </p>
+                        <h3 id="breaking_bad"></h3>
+                    <p id="more_info_1"></p>
                     </div>
                     <div class="skills-col">
-                        <h3>The Bar Barry</h3>
-                    <p>The Bar Barry app was made using the bartender api. This app consists <br>
-                    of more functionality. You are able to search for the drink you like<br>
-                as well as save or favorite it for later. It also <br> consists of an onboarding process for the user.</p></div>
+                        <h3 id="bar_barry"></h3>
+                    <p id="more_info_2"></p></div>
                     <div class="skills-col">
-                        <h3>Noted Tasks</h3>
-                    <p>This app is a replication of the reminders app on the iPhone</p></div>
-                    
-                    
-                    
+                        <h3 id="notedtasks"></h3>
+                    <p id="more_info_3"></p></div>
                 </div>
-                
-                
             </section>
+
+
+            <script>
+                var getToKnowMe = document.getElementById('gtkm');
+                var moreInfo = document.getElementById('more_info');
+                var myProjects = document.getElementById('my_projects');
+                var em = document.getElementById('em');
+                var breakingBad = document.getElementById('breaking_bad');
+                var barBarry = document.getElementById('bar_barry');
+                var notedTasks = document.getElementById('notedtasks');
+                var moreInfo1 = document.getElementById('more_info_1');
+                var moreInfo2 = document.getElementById('more_info_2');
+                var moreInfo3 = document.getElementById('more_info_3');
+
+                getToKnowMe.innerHTML = getToKnowMe.innerHTML + "Get To Know Me More";
+                moreInfo.innerHTML = moreInfo.innerHTML + "I have a Higher Certificate in Information Systems Engineering,\n safe to say that's where my coding journey began. Shortly after that I landed an internship at Glucode for \n iOS App development where I learned SwiftUI, during my tenure there I acquired a \n Certificate of Completeion for iOS App development. The languages I learned in school \n are Java, SQL and HTML. I'm self-taught in c# and Python.";
+                myProjects.innerHTML = myProjects.innerHTML + "Projects";
+                em.innerHTML = em.innerHTML + "These are Swift projects that I have done.";
+                breakingBad.innerHTML =breakingBad.innerHTML + "Breaking Bad";
+                barBarry.innerHTML = barBarry.innerHTML + "The Bar Barry";
+                notedTasks.innerHTML = notedTasks.innerHTML + "Noted Tasks";
+                moreInfo1.innerHTML = moreInfo1.innerHTML + "This app consists of basic Swift. It just show a list of the breaking bad characters and when you click on them you get more information on them. <br>This information is from the breaking bad API. ";
+                moreInfo2.innerHTML = moreInfo2.innerHTML + "The Bar Barry app was made using the bartender api. This app consists of more functionality. You are able to search for the drink you like as well as save or favorite it for later. It also <br> consists of an onboarding process for the user.";
+                moreInfo3.innerHTML = moreInfo3.innerHTML + "This app is a replication of the reminders app on the iPhone";
+            </script>
            
     </body>
 </html>

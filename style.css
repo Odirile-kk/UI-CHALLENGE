@@ -53,7 +53,9 @@ nav {
 }
 
 .td-bio {
-    padding-left: 20vh; padding-top: 50px
+    padding-left: 20vh; padding-top: 50px;
+    color: black;
+    
 }
 
 .td-img {
@@ -61,7 +63,7 @@ nav {
 }
 
 
-/*-----services------*/
+/*-----projects------*/
 
 .about-table {
     width: 100%; 
